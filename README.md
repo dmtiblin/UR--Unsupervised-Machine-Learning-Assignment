@@ -6,6 +6,8 @@
 
 * You have been handed raw data, so you will first need to process it to fit the machine learning models. Since there is no known classification system, you will need to use unsupervised learning. You will use several clustering algorithms to explore whether the cryptocurrencies can be grouped together with other similar cryptocurrencies. You will use data visualization to share your findings with the investment bank.
 
+## Read below for the final reccomendation!
+
 ## Task
 
 ### Data Preparation
@@ -37,6 +39,8 @@
 ### Recommendation
 
 * Based on your findings, make a brief (1-2 sentences) recommendation to your clients. Can the cryptocurrencies be clustered together? If so, into how many clusters? 
+
+Even after running PCA to reduce dimensionality there are still a large number of features in the dataset. This means that there likeley was not much correlation amongst the features allowing them to be reduced together. The k-means algorithm had a very large inertia and never really leveled off, even at larger #s of clusters making it difficult to determine where an ideal # of clusters might be. In most trials, the k-means algorithm clustered most of the cryptocurrencies together in one big cluster. I would not recommend clustering the cryptocurrencies together in practice, at least not based on these data features.
 
 ## Rubric
 
