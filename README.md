@@ -42,10 +42,6 @@
 
 Even after running PCA to reduce dimensionality there are still a large number of features in the dataset. This means that there likeley was not much correlation amongst the features allowing them to be reduced together. The k-means algorithm had a very large inertia and never really leveled off, even at larger #s of clusters making it difficult to determine where an ideal # of clusters might be. In most trials, the k-means algorithm clustered most of the cryptocurrencies together in one big cluster. I would not recommend clustering the cryptocurrencies together in practice, at least not based on these data features.
 
-## Rubric
-
-[Unit 20 - Unsupervised Machine Learning Homework Rubric - Cryptocurrency Clusters](https://docs.google.com/document/d/1zhiC8-PtfMknDxYHagsTukryQAJSdXFRWa-aK3W28Vg/edit?usp=sharing)
-
 - - -
 
 ## References
