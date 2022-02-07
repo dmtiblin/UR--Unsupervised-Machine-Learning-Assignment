@@ -36,11 +36,11 @@
 
 * Create an elbow plot to identify the best number of clusters. Use a for-loop to determine the inertia for each `k` between 1 through 10. Determine, if possible, where the elbow of the plot is, and at which value of `k` it appears.
 
-### Recommendation
+### My Recommendation
 
 * Based on your findings, make a brief (1-2 sentences) recommendation to your clients. Can the cryptocurrencies be clustered together? If so, into how many clusters? 
 
-Even after running PCA to reduce dimensionality there are still a large number of features in the dataset. This means that there likeley was not much correlation amongst the features allowing them to be reduced together. The k-means algorithm had a very large inertia and never really leveled off, even at larger #s of clusters making it difficult to determine where an ideal # of clusters might be. In most trials, the k-means algorithm clustered most of the cryptocurrencies together in one big cluster. I would not recommend clustering the cryptocurrencies together in practice, at least not based on these data features.
+* Even after running PCA to reduce dimensionality there are still a large number of features in the dataset. This means that there likeley was not much correlation amongst the features allowing them to be reduced together. The k-means algorithm had a very large inertia and never really leveled off, even at larger #s of clusters making it difficult to determine where an ideal # of clusters might be. In most trials, the k-means algorithm clustered most of the cryptocurrencies together in one big cluster. I would not recommend clustering the cryptocurrencies together in practice, at least not based on these data features.
 
 - - -
 
